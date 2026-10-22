@@ -1,0 +1,25 @@
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+
+        ArrayList<String> students = new ArrayList<>();
+
+        // Add student records
+        students.add("101 Ram");
+        students.add("102 Ravi");
+        students.add("103 Sita");
+
+        System.out.println("Before deletion:");
+        System.out.println(students);
+
+        // Delete student with ID 101
+        students.remove("101 Ram");
+
+        System.out.println("After deletion:");
+        System.out.println(students);
+
+        System.out.println("Record deleted successfully");
+    }
+}
